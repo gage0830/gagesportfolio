@@ -1,22 +1,58 @@
-h1 {
-    text-align: center;
-    font-weight: 600;
-    font-size: 55px;
+body {
+    margin: 0px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7em; 
+    color: #333;
 }
 
 #main-header-container {
     background: rgb(91, 91, 226);
-    width: 100%;
-    padding: 60px 30px 80px 30px;
+    width: auto;
+    padding: 60px 30px 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #main-header-content-row {
     padding: 30px 30px 30px 30px;
     background: rgba(255, 255, 255, 0.712);
     max-width: 1080px;
+    width: 100%;
 }
 
-.container {
-    width: 100%;
-    padding: 30px 
+#main-header-content-row h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+#main-header-content-row p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#about-me {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-col-1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: green;
+}
+
+.about-me-col-2 {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    background: yellow;
 }
