@@ -1,4 +1,11 @@
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 55px;
+}
+
 #main-header-container {
     background: light-blue;
     height: 20vh;
+    width: 100%
 }
