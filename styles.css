@@ -5,7 +5,18 @@ h1 {
 }
 
 #main-header-container {
-    background: light-blue;
-    height: 20vh;
-    width: 100%
+    background: rgb(91, 91, 226);
+    width: 100%;
+    padding: 60px 30px 80px 30px;
+}
+
+#main-header-content-row {
+    padding: 30px 30px 30px 30px;
+    background: rgba(255, 255, 255, 0.712);
+    max-width: 1080px;
+}
+
+.container {
+    width: 100%;
+    padding: 30px 
 }
